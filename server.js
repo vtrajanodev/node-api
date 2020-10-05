@@ -20,4 +20,4 @@ app.use('/api' , require('./src/routes'))
 
 
 //Iniciando servidor
-app.listen(process.env.PORT || 3000)
+const port = process.env.PORT || 3000
