@@ -25,4 +25,4 @@ app.use('/api' , require('./src/routes'))
 
 
 //Iniciando servidor
-app.listen(12345)
+port = process.env.port || 3000
