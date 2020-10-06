@@ -21,7 +21,7 @@ mongoose.connect('mongodb+srv://deploy:3966120vic@dbproduct.xw0dz.mongodb.net/db
 requireDir('./src/model/')
 
 //Definição das rotas
-app.use('/' , require('./src/routes'))
+app.use('/api' , require('./src/routes'))
 
 
 //Iniciando servidor
