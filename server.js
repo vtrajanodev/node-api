@@ -3,7 +3,7 @@ const app = express()
 const mongoose = require('mongoose')
 const requireDir = require('require-dir')
 const cors = require('cors')
-const env = require('dotenv/config')
+const env = require('dotenv')
 
 
 
