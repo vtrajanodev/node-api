@@ -17,7 +17,7 @@ module.exports = {
     },
     async register(req, res){
 
-        const registerUser = await Product.create(req.body.params)
+        const registerUser = await Product.create(req.body)
 
         return res.json(registerUser)
     } , 
