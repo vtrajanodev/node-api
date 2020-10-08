@@ -9,6 +9,6 @@ routes.get('/products' , ProductController.index)
 routes.get('/products/:id' , ProductController.getById)
 routes.post('/products' , ProductController.register) 
 routes.put('/products/:id' , ProductController.update)
-routes.delete('/products/:id' , ProductController.delete)
+routes.delete('/del/:id' , ProductController.delete)
 
 module.exports = routes;
